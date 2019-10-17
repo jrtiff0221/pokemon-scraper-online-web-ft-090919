@@ -1,4 +1,6 @@
-attr_reader :id, :name, :type, :db
+class Pokemon
+end	
+  attr_reader :id, :name, :type, :db
 
   def initialize (id:, name:, type:, db:)
     @id = id 
@@ -24,3 +26,4 @@ attr_reader :id, :name, :type, :db
 
     pokemon_inst = Pokemon.new(id: id, name: name, type: type, db: db)
   end
+end
