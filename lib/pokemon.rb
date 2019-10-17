@@ -1,5 +1,4 @@
 class Pokemon
-end	
   attr_reader :id, :name, :type, :db
 
   def initialize (id:, name:, type:, db:)
