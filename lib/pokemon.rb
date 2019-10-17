@@ -14,6 +14,8 @@ class Pokemon
       INSERT INTO songs (name, album)
       VALUES (?, ?)
     SQL
+    
+    
   end
     
 end
