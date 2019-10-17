@@ -14,7 +14,7 @@ class Pokemon
       VALUES (?, ?)
     SQL
 
-    id = db.execute(sql, name, type)
+    id = db.execute(sql, [name, type])
     self.new(id: id, name: name, type: type, db: db)
   end
   def self.find(id, db)
