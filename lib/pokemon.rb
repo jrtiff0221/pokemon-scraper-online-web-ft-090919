@@ -10,7 +10,10 @@ class Pokemon
   end
   
   def self.save 
-    
+       sql = <<-SQL
+      INSERT INTO songs (name, album)
+      VALUES (?, ?)
+    SQL
   end
     
 end
